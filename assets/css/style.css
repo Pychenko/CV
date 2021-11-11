@@ -1,0 +1,75 @@
+html, body {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h1 {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: rgb(255, 174, 0);
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+h2 {
+    color: rgb(255, 174, 0);
+    padding-top: 20px;
+}
+
+h3 {
+    color: darkgray;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery.dark>a {
+    color: white;
+}
+
+
+img {
+    border-radius: 5%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.column-1 {
+    background-color: lightgray;
+    color: black;
+    text-align: left;
+    padding-left: 65px;
+    height: 1020px;
+    border-radius: 80px 0 0 80px;
+}
+
+.column-1 a {
+    color: black;
+}
+
+.column-2 {
+    background-color: rgb(236, 236, 236);
+    color: black;
+    height: 1020px;
+    padding-top: 20px;
+    padding-left: 60px;
+    border-radius: 0 80px 80px 0;
+}
+
+.column-1.dark {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.column-1.dark a {
+    color: white;
+}
+
+.column-2.dark {
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+
